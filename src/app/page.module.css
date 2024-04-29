@@ -1,0 +1,25 @@
+.container {
+  margin-top: 4rem;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.table th {
+  cursor: pointer;
+}
+
+.pagination {
+  justify-content: flex-end;
+}

@@ -1,0 +1,8 @@
+.album-list-item {
+  cursor: pointer;
+}
+
+.album-list-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
