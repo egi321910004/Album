@@ -50,11 +50,8 @@ const CardPhoto: React.FC<PhotoProps> = ({ photos }) => {
         show={selectedPhotoIndex !== null}
         onHide={closeFullScreen}
         centered
-        size="xl"
+        fullscreen
       >
-        <Modal.Header closeButton>
-          <Modal.Title>Full Screen Photo</Modal.Title>
-        </Modal.Header>
         <Modal.Body>
           {selectedPhotoIndex !== null && (
             <img
